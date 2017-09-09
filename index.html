@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Телегид</title>
+    <link rel="stylesheet" href="css/_reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">         
+            <div class="logo">
+                <a href="/"><img src="http://tv.domru.ru/static/img/design/logo.jpg"></a>
+            </div>
+            <div id="current-date">
+                <div id="date">
+                    <p class="date"></p>
+                    <p class="time"></p>
+                </div>
+                <div id="time"></div>
+            </div>
+            <div class="name-day-week">
+            </div>
+            <div class="title">ТВ-ГИД</div>
+        </div>
+        <div class="tv">ТВ</div>
+        <div class="time-period">
+            <div class="period">
+                <div class="time_1"></div>
+                <div class="time_2"></div>
+            </div>
+        </div>
+    </header>             
+    <div id="content"></div>
+    <div class="page">
+        <div class="prev">Назад</div>
+        <div class="next">Вперед</div>
+    </div>
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/vendor/handlebars-v4.0.10.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{{#each groupChannels}}
+	<div class="channel">
+		<div class="channel-title" id = "channel">
+			<div class="name">{{title}}</div>
+			<div class="img"></div>
+			<div class="description hidden">{{description}}</div>
+		</div>
+		<div class="channels-programs">	
+			<div class="container-programs">
+				{{#each epg_channel_id}}
+					<div class="programs">
+						<div class="program-name" style="width: {{calculation-width duration}}px;">{{title}}</div>
+						<div class="program-description hidden">
+							<div>{{title}}</div>
+							<div>{{formatting-time start duration}}  {{program.country.title}}</div>
+							<div>{{program.description}}</div>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+			<div class="description-visible height-150"></div>
+		</div>	
+	</div>
+{{/each}}
+<div class="general-container">
+	<div class="block-time">
+		<div id="treangle"></div>
+		<div id="train"></div>	
+	</div>
+</div>		

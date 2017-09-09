@@ -1,0 +1,338 @@
+body {
+    background: url('http://tv.domru.ru/static/img/design/bg.png');
+    color: #fff;
+}
+
+.header {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+header {
+    min-width: 960px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header:after {
+    clear: both;
+    display: table;
+}
+
+.animate {
+    transition: all 0s ease;
+}
+
+#content {
+    min-width: 960px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0px;
+
+}
+
+.header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#current-date {
+    color: #fff;
+    line-height: 40px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    width: 110px;
+    font-family: 'ChevinCyrillicBold', sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-right: 10px;
+    text-align: left;
+    float: left;
+}
+
+.title {
+    float: right;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    font-family: 'ChevinCyrillicBold', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#date {
+    line-height: 1.9;
+}
+
+.channel-title .name {
+    height: 36px;
+    width: 196px;
+    display: flex;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    padding-left: 10px;
+    background-color: #373838;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.channel {
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.programs {
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.program-description {
+    height: 101px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.channels-programs {
+    overflow: hidden;
+}
+
+.channel-title .description{
+    height: 110px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: #373838;
+    font-size: 11px;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.img img {
+    width: 100%;
+}
+
+.channel-title {
+    height: auto;
+    width: 210px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin-right: 14px;
+}
+
+.channel:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.channel-title .name:hover {
+    opacity: 0.8;
+}
+
+.day-week {
+    padding: 10px;
+    float: left;
+    text-align: center;
+    border-bottom: 5px solid #373838;
+    cursor: pointer;
+}
+
+.day-week:hover {
+    border-bottom: 5px solid #ff0000;
+    color: rgba(255,255,255,0.8);
+}
+
+.time-period {
+    height: 30px;
+    font-size: 24px;
+}
+
+.time-period:after {
+    clear: both;
+    display: table;
+}
+
+.time-period div{
+    float: left;
+    text-align: center;
+}
+
+.time-period .period {
+    width: 725px;
+    text-align: left;
+}
+
+.tv {
+    height: 30px;
+    font-size: 24px;
+    width: 210px;
+    float: left;
+}
+
+.time-period .period div{
+    float: left;
+    width: 362px;
+    text-align: center;
+}
+
+.content-channels {
+    float: left;
+}
+
+.program-name {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #373838;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 2px solid transparent;
+}
+
+.program-name:hover {
+    opacity: 0.8;
+}
+
+.page {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    background: rgba(0,0,0,0.54);
+    padding: 5px 20px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+.prev:hover {
+    opacity: 1;
+}
+
+.next:hover {
+    opacity: 1;
+}
+
+.next {
+    background: rgba(0,0,0,0.54);
+    padding: 5px 20px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+.hidden {
+    display: none;
+}
+
+#train {
+    height: 401px;
+    position: relative;
+    height: 310px;
+    border-left: 1px solid red;
+    top: 10px;
+    left: 165px;
+}
+
+.block {
+    width: 220px;
+    float: left;
+}
+
+.block-time {
+    width: 1px;
+    float: left;
+}
+
+.height-496 {
+    height: 442px!important;
+}
+
+.general-container {
+    width: 1px;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+
+.description-visible {
+    height: 118px;
+    width: 748px;
+    display: none;
+    padding: 16px 10px;
+}
+
+.container-programs {
+    height: 40px;
+    width: 1000%;
+    overflow: hidden;
+    position: relative;
+}
+
+.visible {
+    display: block;
+}
+
+.height-150 {
+    height: 100px;
+}
+
+.channel-active {
+    height: 132px;
+    width: 210px;
+    background: #373838;
+}
+
+.red {
+    border-bottom: 5px solid red!important;
+}
+
+.focus-program {
+    border: 2px solid #fff;
+}
+
+.description-visible div:nth-child(1) {
+    font-size: 18px;
+}
+
+.description-visible div:nth-child(2) {
+    font-size: 16px;
+    margin: 5px 0px;
+    opacity: 0.9;
+}
+
+#treangle {
+	position: relative;
+}
+
+#treangle::after {
+	content: ''; 
+	position: absolute;
+	border: 4px solid transparent;
+    border-top: 5px solid red;
+}
+
+.choice-channel {
+    border: 2px solid red!important;
+}
